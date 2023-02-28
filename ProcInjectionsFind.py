@@ -35,12 +35,6 @@ $ python vol.py -l vmi://win7_Guest --profile=Win7SP1x64 procinjectionsfind
 $ python vol.py -l vmi://win10_Guest --profile=Win10x64_14393 procinjectionsfind
 '''
 
-# python vol.py --plugins=/home/dmt/volatility/procinjectionsfind/ -f /home/dmt/memory-dump-files/win7-Guest-clone-36.mem --profile=Win7SP1x64 procinjectionsfind -p 1744
-
-# python vol.py --plugins=/home/dmt/volatility/procinjectionsfind/ -f /home/dmt/memory-dump-files/win10-pe-injection.mem --profile=Win10x64_14393 procinjectionsfind -p 5468
-
-# python vol.py --plugins=/home/dmt/volatility/procinjectionsfind/ -l vmi://win10_Guest --profile=Win10x64_14393 procinjectionsfind -p 5468
-
 import os
 import ntpath
 import time
