@@ -14,3 +14,4 @@ The proposed system completely detects more malware families and stands over oth
 
 We are leveraging virtual machine introspection with memory forensics to detect process injection of varied types in a virtualized environment.
 
+On any questions (regarding this research ;-) ) don't hesitate to contact dmtank@gmail.com
