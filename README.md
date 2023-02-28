@@ -5,6 +5,7 @@ A ProcInjectionsFind volatility plugin runs against malware-infected memory imag
 The ProcInjectionsFind volatility module is designed to automate the identification of different process injection strategies.
 
 Although there are numerous process injection techniques, this work focuses on the detection of following eight different implementations of process injection:  
+
     1. Remote DLL Injection Via CreateRemoteThread and LoadLibrary
     
     2. Remote Thread Injection Using CreateRemoteThread
