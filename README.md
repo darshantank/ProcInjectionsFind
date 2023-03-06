@@ -26,6 +26,8 @@ This module runs a few checks to pinpoint malicious/injected memory sections and
 
 One can perform live introspection of running VMs for possible indication of process injection.
 
+Our targeted operating systems are Windows-based, i.e., Windows 7, Windows 8.1 and Windows 10 respectively.
+
 The proposed system completely detects more malware families and stands over other systems in all evaluation metrics defined in this work.
 
 We are leveraging virtual machine introspection with memory forensics to detect process injection of varied types in a virtualized environment.
